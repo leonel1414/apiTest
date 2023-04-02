@@ -1,11 +1,11 @@
 // METODO GET
 async function getUser(){
-     var apiUser = await fetch('https://rickandmortyapi.com/api/character')
-
+     var apiUser = await fetch('https://rickandmortyapi.com/api/character');
      var dataJson = await apiUser.json();
      var user = dataJson.results[10];
 
-     var fullName = `${user.name}`;
+    // var fullName = `${user.name}`;
+    // console.log(`${fullName}`);
 
      const userInfo = `
      <img src="${user.image}">
