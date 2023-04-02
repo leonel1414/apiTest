@@ -1,0 +1,11 @@
+div{
+    text-align: center;
+}
+body {
+    background-color: aquamarine;
+}
+
+img{
+    margin: 12px;
+    border: 2px solid #000;
+}
